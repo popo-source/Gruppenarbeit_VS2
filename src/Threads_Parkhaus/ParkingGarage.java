@@ -2,7 +2,7 @@ package Threads_Parkhaus;
 
 public class ParkingGarage {
 
-    int parkplace;
+    long parkplace;
 
     public void enter(){
 
