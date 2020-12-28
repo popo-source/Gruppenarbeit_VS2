@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Gruppenarbeit.iml" filepath="$PROJECT_DIR$/Gruppenarbeit.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Markup_HTML/Markup_HTML.iml" filepath="$PROJECT_DIR$/Markup_HTML/Markup_HTML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Markup/Markup.iml" filepath="$PROJECT_DIR$/Markup/Markup.iml" />
     </modules>
   </component>
 </project>
