@@ -2,7 +2,8 @@ package Threads_Parkhaus;
 
 public class ParkingGarage {
 
-    int parkplace;
+    long parkplace;
+    Car[] parked;
 
     public void enter(){
 
