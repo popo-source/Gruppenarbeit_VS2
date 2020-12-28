@@ -9,6 +9,11 @@ public class Car extends Thread {
     private int number;
     private String brand;
     private String[] branding = {"audi a4", "porsche cayenne", "volkswagen golf", "fiat 500", "peugeot 206", "toyota yaris"};
+    private ParkingGarage garage;
+
+    public void setGarage(ParkingGarage garage) {
+        this.garage = garage;
+    }
 
     public Car(int number){
         this.number = number;
@@ -26,7 +31,13 @@ public class Car extends Thread {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-
+            garage.enter(this);
+            try {
+                Thread.sleep((int) (Math.random() * 10000));
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            garage.leave(this);
         }
     }
 
