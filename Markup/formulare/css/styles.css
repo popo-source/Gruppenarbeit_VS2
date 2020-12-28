@@ -50,9 +50,9 @@ legend {
 /* special fieldset for grouping of radio- and checkbox elements */
 fieldset.radiocheckgroup {
   position: relative;
-  margin: 0 0 0.6em 0em;
+  margin: 0 0 0.6em 0;
   padding: 0;
-  border: 0px none;
+  border: 0 none;
 }
 
 fieldset.radiocheckgroup legend {
