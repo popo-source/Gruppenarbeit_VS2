@@ -11,13 +11,11 @@ public class Car extends Thread {
     private String[] branding = {"audi a4", "porsche cayenne", "volkswagen golf", "fiat 500", "peugeot 206", "toyota yaris"};
     private ParkingGarage garage;
 
-    public void setGarage(ParkingGarage garage) {
-        this.garage = garage;
-    }
 
-    public Car(int number){
+    public Car(int number, ParkingGarage garage){
         this.number = number;
         this.brand = branding[(int)(Math.random()*branding.length)];
+        this.garage = garage;
     }
 
     public int getNumber() {

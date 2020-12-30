@@ -23,8 +23,7 @@ public class Parking {
         Car[] cars = new Car[autos];
 
         for(int i=0;i<autos;i++){
-            cars[i] = new Car(i+1);
-            cars[i].setGarage(garage);
+            cars[i] = new Car(i+1, garage);
             cars[i].start();
         }
 
