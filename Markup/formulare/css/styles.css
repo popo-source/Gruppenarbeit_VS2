@@ -66,6 +66,26 @@ fieldset.radiocheckgroup legend > span {
   position: relative;
   top: 0.6em;
 }
+
+/* special fieldset for grouping of radio- and checkbox elements */
+fieldset.kursgroup {
+  position: relative;
+  margin: 0 0 0.6em 0;
+  padding: 0;
+  border: 0 none;
+}
+
+fieldset.kursgroup legend {
+  padding: 0;
+  line-height:0;
+  color: black;
+}
+/* because Firefox is ignoring positioning of legend,
+   it has to be wrapped with span */
+fieldset.kursgroup legend > span {
+  position: relative;
+  top: 0.6em;
+}
 	
 label {
   width: 9em;

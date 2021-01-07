@@ -40,15 +40,26 @@
                 <input type="text" id="email" name="email" />
                 <label for="birthday">Geburtstag:</label>
                 <input type="text" id="birthday" name="birthday" />
-                <fieldset class="radiocheckgroup">
-                  <legend><span>Geschlecht:</span></legend>
-                  <input type="text" name="gender" id="gender_m" value="zu ersetzen"/>
 
-                <!-- hier fehlen noch die Radio-Buttons -->
+                <fieldset class="radiocheckgroup">
+                    <legend><span>Geschlecht:</span></legend>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">männlich</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">weblich</label><br>
 
                 </fieldset>
 
-                <!-- hier fehlt noch das Auswahlmenü -->
+
+                <span>Kurse:</span>
+                    <select name="Kurse" multiple>
+                        <option value="Kurs1">Kurs 1</option>
+                        <option value="Kurs2">Kurs 2</option>
+                        <option value="Kurs3">Kurs 3</option>
+                        <option value="Kurs4">Kurs 4</option>
+                    </select>
+
+                <input type="hidden" name="comment" value="blabla">
 
                  <label for="comment">Kommentar:</label>
                 <textarea id="comment" name="comment" rows="3" cols="30"></textarea>
