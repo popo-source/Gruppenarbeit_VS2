@@ -1,5 +1,3 @@
-package Threads_Parkhaus;
-
 import java.util.Scanner;
 
 public class Parking {

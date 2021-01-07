@@ -1,5 +1,3 @@
-package Threads_Parkhaus;
-
 import java.util.ArrayList;
 import java.util.List;
 

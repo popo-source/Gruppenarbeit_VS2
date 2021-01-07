@@ -1,9 +1,3 @@
-package Threads_Parkhaus;
-
-
-
-import static java.lang.Thread.*;
-
 public class Car extends Thread {
 
     private int number;

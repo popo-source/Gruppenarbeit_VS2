@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Gruppenarbeit.iml" filepath="$PROJECT_DIR$/Gruppenarbeit.iml" />
       <module fileurl="file://$PROJECT_DIR$/Markup/Markup.iml" filepath="$PROJECT_DIR$/Markup/Markup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Threads_Future/Threads_Future.iml" filepath="$PROJECT_DIR$/Threads_Future/Threads_Future.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Threads_Parkhaus/Threads_Parkhaus.iml" filepath="$PROJECT_DIR$/Threads_Parkhaus/Threads_Parkhaus.iml" />
     </modules>
   </component>
 </project>
